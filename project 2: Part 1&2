@@ -1,0 +1,146 @@
+project 2 part 1: https://codepen.io/mgriley1094/pen/BaLqPYP?editors=1100
+Review questions:
+https://lambdaschool.instructure.com/courses/701/quizzes/10028?module_item_id=546377
+https://lambdaschool.instructure.com/courses/701/quizzes/10031?module_item_id=546381
+
+
+
+
+project part 2: MVP 
+https://codepen.io/mgriley1094/pen/NWREZWv?editors=1100
+
+Project part 2 review questions: 
+1. What is Semantic HTML? 
+A) Semantic HTML tags are used to divide content areas on a web page. They are meaningful and describe
+the tag's content inside clearly
+
+    2. What is HTML used for? 
+A) HTML is used to markup and otherwise format content in web documents
+
+    3. What is an attribute and where do we put it? 
+A) An attribute specifies extra information about an element, it placed in the opening tag of the element 
+and after the element name
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+A) This tag is used as a heading element and should be used typically, once per page
+
+    5. Name two tags that have required attributes
+A) <img> tag and the <a> tag 
+
+    6. What do we put in the head of our HTML document? 
+A) The head tag contains meta information about the web page such as the page title, JavaScipt functions
+or character sets
+
+    7. What is an id? 
+A) As with the class attribute, and id gives an element a unique identifier, however an id name can only be applied
+to a single element. Id's are typically used to manipulate elements with JS or CSS.
+
+    8. What elements can I add an id to? 
+A) You can add an id to any element, however they must be of different names
+
+    9. How many times can I use the same id on a page? 
+A) Once per page 
+    10. What is a class? 
+A) A class is an attribute that gives an element or multiple elements a grouping identification name 
+to then be able to manipulate that element with CSS
+
+    11. What elements can I add a class to? 
+A) Any element can have a class attribute 
+
+    12. How many times can I use the same class on a page?
+A) As many times as necessary 
+ 
+    13. How do I get my link to open in a new tab?
+A) By linking an external webpage to the "href" attribute in an anchor tab
+
+    14. What is the alt attribute in the image tag used for? 
+A) This is used as alternative text to describe the image in case the image is not loaded properly 
+
+    15. How do I reference an id?
+A) Id's are referenced via #id-name
+
+    16. What is the difference between a section and a div
+A) A div is non-semantic, block-level element that allows for grouping multiple elements together;
+A section tag is a semantic element that allows you to group related elements or content together on a page
+
+    17. What is CSS used for? 
+A) CSS is used to style a page's content
+
+    18. How to we select an element? Example - every h2 on the page
+A) By using a general element selector - such as h2 {}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+A) A class and id are both attributes although class names can be used for several elements whereas
+id's can only be used once per page. An id might be used for a given image on a page, whereas a class
+may be used to markup sever headings or paragraphs 
+
+    20. How do we select classes in CSS?
+A) Via dot notation, .class-name
+
+    21. How do we select a p element with a single class of “human””?
+A) p.human {} 
+
+    22. What is a parent child selector? When would this be useful? 
+A) This lists the main element first, followed by its child elements in the same line. This is 
+usually done to markup a specific child element of a parent element without affecting the parent 
+element itself 
+
+    23. How do you select all links within a div with the class of sidebar?
+A) .sidebar a {} 
+
+    24. What is a pseudo selector?
+A) This is a keyword to define select an element only when its under a certain action, 
+such as a:hover, which applies the style rule when an <a> link is being hovered over
+
+    25. What do we use the change the spacing between lines?
+A) the <br> tag, the /n, to symbolize a new line, or any block level element like a <div> or a <p> 
+
+    26. What do we use to change the spacing between letters?
+A) CSS has a letter-spacing property you can use to make space between characters 
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+A) In a CSS style rule, we use the property text-transform: uppercase; for all uppercase 
+lowercase; for all lowercase and capitalize; for capitalizing the first letter of each word
+
+    28. How do I add a 1px border around my div that is dotted and black?
+A) div {
+	border-width: 1px;
+	border-style: dotted;
+	border-color: black
+    }
+
+    29. How do I select everything on the page? 
+A) the universal element seledctor which is *  -the asterisk symbol
+
+    30. How do I write a comment in CSS?
+A) Comments in CSS are written as /* comment */ 
+
+    31. How do I find out what file I am in, when I am using the command line?
+A) cd command 
+ 
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+A) the dir command or the ls command 
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+A) the rm command plus the file name or the del command. This will permanently delete a file off my computer.
+
+    34. Why should I use version control? 
+A) When working in large groups or you have multiple versions of your project, version control systems keep
+track of the original and changes everyone has made for easy access and backtracking 
+
+    35. How often should I commit to github?
+A) You should commit often, each time you make an important change 
+
+    36. What is the command we would use to push our repo up to github?
+A) git push -b origin plus the branch name  
+    37. Walk me through Lambda's git flow. 
+A) 	1)Fork a repo on github
+	2)git clone and paste the repo link
+	3)cd into the new repo
+	4)git checkout -b 'firstname-lastname' to create your own branch of the project 
+	5)git add . to add changes 
+	6)git commit -m to commit the changes 
+	7)git push -u orgigin branch name to push your commits back to the main repo
+	8)compare your fork with the master branch
+	9)submit a pull request
+	10) merge your branch with the main branch if approved by a reviewer 
